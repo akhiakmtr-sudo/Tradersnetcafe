@@ -17,7 +17,7 @@ export default function App() {
 
       {/* Header */}
       <header className="relative z-10 w-full py-6 text-center">
-        <h1 className="font-allura text-5xl sm:text-6xl md:text-7xl text-white" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.6)' }}>
+        <h1 className="font-allura text-7xl sm:text-8xl md:text-9xl text-white" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.6)' }}>
           Launching
         </h1>
       </header>
@@ -27,7 +27,7 @@ export default function App() {
         <img 
           src="https://i.postimg.cc/1t2j6Gsv/IMG-20251031-WA0021.jpg" 
           alt="Trader's Net Cafe Logo" 
-          className="max-w-xs sm:max-w-sm md:max-w-md w-full animate-fade-in-scale"
+          className="max-w-[16rem] sm:max-w-[18rem] md:max-w-xs w-full animate-fade-in-scale"
         />
       </main>
     </div>
