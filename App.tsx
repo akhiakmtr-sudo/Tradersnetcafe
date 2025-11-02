@@ -15,15 +15,11 @@ export default function App() {
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
 
-      {/* Header */}
-      <header className="relative z-10 w-full py-6 text-center">
-        <h1 className="font-allura text-7xl sm:text-8xl md:text-9xl text-white" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.6)' }}>
+      {/* Main Content Area */}
+      <main className="relative z-10 flex-grow flex flex-col items-center justify-center p-4 text-center">
+        <h1 className="font-allura text-7xl sm:text-8xl md:text-9xl text-white mb-8" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.6)' }}>
           Launching
         </h1>
-      </header>
-
-      {/* Main Content Area */}
-      <main className="relative z-10 flex-grow flex items-center justify-center p-4">
         <img 
           src="https://i.postimg.cc/1t2j6Gsv/IMG-20251031-WA0021.jpg" 
           alt="Trader's Net Cafe Logo" 
