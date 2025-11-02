@@ -16,20 +16,20 @@ export default function App() {
       </div>
 
       {/* Header */}
-      <header className="absolute top-0 w-full p-8 z-10">
-        <h1 className="text-center text-2xl md:text-3xl font-bold tracking-wider text-white">
+      <header className="absolute top-0 w-full p-4 md:p-8 z-10">
+        <h1 className="text-center text-xl sm:text-2xl md:text-3xl font-bold tracking-wider text-white">
           Traders Net Cafe
         </h1>
       </header>
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col items-center justify-center text-center">
+      <main className="relative z-10 flex flex-col items-center justify-center text-center px-4">
         <img
           src="https://i.postimg.cc/1t2j6Gsv/IMG-20251031-WA0021.jpg"
           alt="Traders Net Cafe Logo"
-          className="w-48 h-48 md:w-64 md:h-64 mb-8"
+          className="w-32 h-32 sm:w-48 sm:h-48 md:w-64 md:h-64 mb-6 md:mb-8"
         />
-        <h2 className="text-6xl md:text-8xl font-extrabold text-white uppercase tracking-widest">
+        <h2 className="text-4xl sm:text-6xl md:text-8xl font-extrabold text-white uppercase tracking-wide md:tracking-widest">
           Launching Soon
         </h2>
       </main>
