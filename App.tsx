@@ -21,7 +21,7 @@ export default function App() {
           Launching
         </h1>
         <img 
-          src="https://i.postimg.cc/1t2j6Gsv/IMG-20251031-WA0021.jpg" 
+          src="https://i.postimg.cc/dtBNPBqG/TRADERS-CAFE-png.png" 
           alt="Trader's Net Cafe Logo" 
           className="max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem] w-full animate-fade-in-scale"
         />
