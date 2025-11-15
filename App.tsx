@@ -23,7 +23,7 @@ export default function App() {
         <img 
           src="https://i.postimg.cc/dtBNPBqG/TRADERS-CAFE-png.png" 
           alt="Trader's Net Cafe Logo" 
-          className="max-w-[14rem] sm:max-w-[16rem] md:max-w-[18rem] w-full animate-fade-in-scale"
+          className="max-w-[17rem] sm:max-w-[22rem] md:max-w-[30rem] w-full animate-fade-in-scale"
         />
       </main>
       
