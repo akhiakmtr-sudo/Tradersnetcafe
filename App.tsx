@@ -16,15 +16,21 @@ export default function App() {
       </div>
 
       {/* Main Content Area */}
-      <main className="relative z-10 flex-grow flex flex-col items-center justify-center p-4 text-center">
-        <h1 className="font-allura text-7xl sm:text-8xl md:text-9xl text-white mb-8" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.6)' }}>
-          Launching
-        </h1>
-        <img 
-          src="https://i.postimg.cc/dtBNPBqG/TRADERS-CAFE-png.png" 
-          alt="Trader's Net Cafe Logo" 
-          className="max-w-[17rem] sm:max-w-[22rem] md:max-w-[30rem] w-full animate-fade-in-scale"
-        />
+      <main className="relative z-10 flex-grow flex flex-col items-center p-4 text-center">
+        {/* This spacer is much larger, pushing the content way down */}
+        <div className="flex-grow-[5]" /> 
+        <div className="flex-shrink-0">
+          <h1 className="font-allura text-7xl sm:text-8xl md:text-9xl text-white mb-8" style={{ textShadow: '2px 2px 6px rgba(0,0,0,0.6)' }}>
+            Launching
+          </h1>
+          <img 
+            src="https://i.postimg.cc/dtBNPBqG/TRADERS-CAFE-png.png" 
+            alt="Trader's Net Cafe Logo" 
+            className="max-w-[17rem] sm:max-w-[22rem] md:max-w-[30rem] w-full animate-fade-in-scale"
+          />
+        </div>
+        {/* This spacer is much smaller, keeping the content near the bottom */}
+        <div className="flex-grow-[0.5]" />
       </main>
       
       {/* Footer with WhatsApp Icon */}
