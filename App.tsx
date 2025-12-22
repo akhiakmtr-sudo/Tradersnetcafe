@@ -23,7 +23,7 @@ export default function App() {
   return (
     <div className="relative min-h-screen w-full bg-black text-white flex flex-col overflow-x-hidden font-sans scroll-smooth">
       
-      {/* SECTION 1: HERO (Image 1) */}
+      {/* SECTION 1: HERO */}
       <section id="home" className="relative h-screen w-full flex flex-col shrink-0">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center"
@@ -77,7 +77,7 @@ export default function App() {
         </footer>
       </section>
 
-      {/* SECTION 2: VISION & MISSION (Image 2) */}
+      {/* SECTION 2: VISION & MISSION */}
       <section id="vision" className="relative min-h-screen w-full flex flex-col items-center justify-center bg-black overflow-hidden py-32">
         <div 
           className="absolute inset-0 opacity-40 bg-center bg-cover scale-110"
@@ -101,11 +101,10 @@ export default function App() {
         </div>
       </section>
 
-      {/* SECTION 3: MENTORS (Image 3) */}
+      {/* SECTION 3: MENTORS */}
       <section className="relative w-full bg-[#121212] py-32 border-t border-white/5">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
           <div className="w-full md:w-1/2 flex justify-center">
-             {/* Illustration Placeholder */}
              <div className="w-full max-w-md aspect-square bg-[#1a1a1a] rounded-2xl overflow-hidden border border-[#b58916]/20 shadow-2xl p-4">
                 <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=800" className="w-full h-full object-cover opacity-80 mix-blend-screen" alt="Mentors" />
              </div>
@@ -122,7 +121,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* SECTION 4: TEAM (Image 4) */}
+      {/* SECTION 4: TEAM */}
       <section className="relative w-full bg-black py-32">
         <div className="container mx-auto px-6 flex flex-col md:flex-row-reverse items-center gap-16">
           <div className="w-full md:w-1/2 flex justify-center">
@@ -146,7 +145,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* SECTION 5: SERVICES - MODULE 1 (Image 5) */}
+      {/* SECTION 5: SERVICES - MODULE 1 */}
       <section id="services" className="relative h-screen w-full overflow-hidden flex flex-col">
         <div 
           className="absolute inset-0 bg-center bg-cover"
@@ -175,7 +174,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* SECTION 6: SERVICES - MODULE 2 (Image 6) */}
+      {/* SECTION 6: SERVICES - MODULE 2 */}
       <section className="relative min-h-screen w-full bg-[#0a0a0a] flex items-center py-20">
         <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="h-[500px] w-full bg-cover bg-center rounded-2xl opacity-60 mix-blend-lighten" 
@@ -198,7 +197,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* SECTION 7: SERVICES - MODULE 3 (Image 7) */}
+      {/* SECTION 7: SERVICES - MODULE 3 */}
       <section className="relative min-h-screen w-full bg-[#121212] flex items-center py-20 overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-[#b58916]/5 transform skew-x-12 translate-x-32"></div>
         <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -218,6 +217,109 @@ export default function App() {
           </div>
           <div className="order-1 lg:order-2 h-[500px] w-full bg-cover bg-center rounded-2xl shadow-2xl" 
                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1000')" }}>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 8: TRADING WORKSHOPS */}
+      <section className="relative h-[80vh] w-full overflow-hidden flex flex-col justify-start">
+        <div 
+          className="absolute inset-0 bg-center bg-cover"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000')" }}
+        >
+          <div className="absolute inset-0 bg-black/50"></div>
+        </div>
+        
+        <div className="relative z-10 container mx-auto px-6 pt-20 h-full flex justify-end items-start">
+          <div className="glass-card p-8 md:p-12 rounded-[2.5rem] max-w-lg shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-none bg-gradient-to-br from-[#b58916]/90 to-[#8c6a11]/90 backdrop-blur-md">
+            <h3 className="text-white text-2xl md:text-3xl font-bold mb-6 text-center">Trading Workshops</h3>
+            <p className="text-white/95 text-lg md:text-xl font-medium leading-relaxed text-center">
+              Learn at your pace. From beginner to pro-level – tailored programs on Forex, Crypto, Stocks, and Technical Analysis – with certifications.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 9: COMMUNITY & CHILL */}
+      <section className="relative min-h-screen w-full bg-gradient-to-b from-[#b58916]/30 to-black py-32 overflow-hidden">
+        <div className="container mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="w-full flex justify-center lg:justify-start">
+            <div className="relative w-full max-w-md aspect-square rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+              <img 
+                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=1000" 
+                className="w-full h-full object-cover" 
+                alt="Community sessions" 
+              />
+            </div>
+          </div>
+          
+          <div className="flex flex-col gap-8">
+            <div className="glass-card p-10 rounded-[3rem] shadow-2xl border-none bg-gradient-to-br from-[#1a1a1a]/95 to-black/95">
+              <h3 className="text-[#b58916] text-2xl md:text-3xl font-bold mb-6 text-center">Investment Talk Nights</h3>
+              <p className="text-gray-300 text-lg md:text-xl font-light leading-relaxed text-center">
+                Weekly community sessions where experts, guests, or even members share insights about trading, investing, and financial independence – in a cozy café vibe.
+              </p>
+            </div>
+            <div className="glass-card p-10 rounded-[3rem] shadow-2xl border-none bg-gradient-to-br from-[#1a1a1a]/95 to-black/95">
+              <h3 className="text-[#b58916] text-2xl md:text-3xl font-bold mb-6 text-center">Chill & Create Zone</h3>
+              <p className="text-gray-300 text-lg md:text-xl font-light leading-relaxed text-center">
+                A relaxed spot to brainstorm business ideas, journal your trades, or simply enjoy creative conversations. Because great minds think better over good coffee.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 10: MEMBERSHIP (Image Reference 9) */}
+      <section id="members" className="relative min-h-screen w-full bg-gradient-to-br from-black via-[#0a0a0a] to-[#b58916]/80 flex items-center py-32">
+        <div className="container mx-auto px-6 md:px-12 lg:px-20 max-w-6xl">
+          <div className="flex flex-col gap-12">
+            
+            {/* Membership Header and Buttons */}
+            <div className="flex flex-col gap-8">
+              <h2 className="font-heading text-6xl md:text-7xl lg:text-8xl tracking-widest">MEMBERSHIP</h2>
+              <div className="flex gap-6">
+                <button className="px-10 py-3 rounded-full bg-gradient-to-r from-[#1a1a1a] to-[#b58916] text-white font-medium tracking-widest uppercase text-sm hover:scale-105 transition-transform shadow-xl">
+                  Register
+                </button>
+                <button className="px-10 py-3 rounded-full bg-gradient-to-r from-[#1a1a1a] to-[#b58916] text-white font-medium tracking-widest uppercase text-sm hover:scale-105 transition-transform shadow-xl">
+                  Login
+                </button>
+              </div>
+            </div>
+
+            {/* Become a Member Text */}
+            <div className="max-w-3xl space-y-6">
+              <h3 className="text-xl md:text-2xl font-bold uppercase tracking-wide">Become a Member of Traders Net Café</h3>
+              <p className="text-gray-200 text-lg md:text-xl font-light leading-relaxed">
+                Practice. Observe. Grow with real market professionals. Join Traders Net Café and get access to a focused trading environment where aspiring and active traders come together to practice, observe strategies, and sharpen market skills under experienced guidance.
+              </p>
+            </div>
+
+            {/* Monthly Plan Section */}
+            <div className="flex flex-col gap-8 pt-12">
+              <h3 className="font-heading text-4xl md:text-5xl lg:text-6xl italic tracking-tight font-light">Monthly Membership Plan</h3>
+              
+              <div className="space-y-4">
+                <div className="text-2xl md:text-3xl font-medium tracking-wide">AED 499 / Month</div>
+                <p className="text-gray-300 text-lg md:text-xl italic font-light">
+                  A simple, affordable plan designed for serious market participants.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <h4 className="text-xl font-bold">What’s Included:</h4>
+                <ul className="space-y-2 text-gray-200 text-lg md:text-xl font-light list-none">
+                  <li>• Access to Traders Net Café trading environment</li>
+                  <li>• Live market observation sessions</li>
+                  <li>• Practice setups for U.S. market instruments</li>
+                  <li>• Interaction with experienced traders</li>
+                  <li>• Community discussions and market insights</li>
+                  <li>• One-month flexible membership (no long-term commitment)</li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
