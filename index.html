@@ -4,14 +4,31 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Traders Net Cafe - Launching Soon</title>
+    <title>Traders Net Cafe</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Outfit:wght@100;300;400;600&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
     <style>
+      :root {
+        --traders-gold: #b58916;
+      }
+      body {
+        background-color: #000;
+        color: #fff;
+        font-family: 'Outfit', sans-serif;
+      }
       .font-allura {
         font-family: 'Allura', cursive;
+      }
+      .font-heading {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 300;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+      .gold-gradient {
+        background: linear-gradient(135deg, #b58916 0%, #8c6a11 100%);
       }
       @keyframes fadeInScale {
         from {
@@ -25,6 +42,29 @@
       }
       .animate-fade-in-scale {
         animation: fadeInScale 1s ease-out forwards;
+      }
+      .glass-card {
+        background: rgba(18, 18, 18, 0.85);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(181, 137, 22, 0.2);
+      }
+      .gold-border-btn {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        transition: all 0.3s ease;
+      }
+      .gold-border-btn:hover {
+        border-color: var(--traders-gold);
+        background: rgba(181, 137, 22, 0.1);
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #b58916;
+        border-radius: 4px;
       }
     </style>
   <script type="importmap">
