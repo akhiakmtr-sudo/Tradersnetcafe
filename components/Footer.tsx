@@ -7,7 +7,7 @@ export const Footer: React.FC = () => {
       <div className="relative w-full py-16 flex flex-col items-center justify-center bg-gradient-to-r from-black via-[#b58916]/40 to-black overflow-hidden border-t border-white/5">
         <div className="relative z-10 flex flex-col items-center max-w-[280px] md:max-w-[320px]">
           <img
-            src="https://res.cloudinary.com/dsamz0zji/image/upload/v1766433183/Untitled_design_1_xmmrsm.png"
+            src="https://res.cloudinary.com/dsamz0zji/image/upload/v1766435137/Untitled_design_3_iwdkwo.png"
             alt="Trader's Net Cafe"
             className="w-full h-auto mb-6"
           />
